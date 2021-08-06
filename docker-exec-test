@@ -1,0 +1,7 @@
+docker run --rm -t \
+-v $(pwd):/myvol \
+-e DOCKER_USER='itlinux' -e DOCKER_PASS='r0mabella20!9' \
+chko/docker-pushrm:1 --file /myvol/README.md \
+--short "NGINX and networking tools" --debug itlinux/nginx-net-tools
+
+
